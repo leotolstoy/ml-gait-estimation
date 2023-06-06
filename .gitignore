@@ -1,0 +1,39 @@
+*.pyc
+*.png
+*.parquet
+*.pdf
+*.mat
+*.o
+*.asv
+*.so
+CLibrary/build
+*.csv
+AB0*/*.csv
+*.bak
+GaitModel/*.mat
+OLD SUBJECTS/*
+*.mp4
+*.mp3
+*.eps
+.DS_Store
+## Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.svg
+staging_area/*
+*.zip
+## Bibliography auxiliary files (bibtex/biblatex/biber):
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+training-eval-notebooks/.ipynb_checkpoints/
+training-eval-notebooks/.ipynb_checkpoints/*.ipynb
+.ipynb_checkpoints/

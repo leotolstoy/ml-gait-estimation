@@ -1,0 +1,16 @@
+dim_val = 16 # This can be any value divisible by n_heads. 512 is used in the original transformer paper.
+n_heads = 4 # The number of attention heads (aka parallel attention layers). dim_val must be divisible by this number
+n_encoder_layers = 4 # Number of times the encoder layer is stacked in the encoder
+n_decoder_layers = 2 # Number of times the encoder layer is stacked in the encoder
+input_size = 7 # The number of input variables. 1 if univariate forecasting.
+enc_seq_len = 150 # length of input given to encoder. Can have any integer value.
+dec_seq_len = 1 # length of input given to decoder. Can have any integer value.
+
+dropout_encoder = 0.1
+dropout_decoder = 0.1
+dropout_pos_enc = 0.0
+dropout_regression = 0.1
+dim_feedforward_encoder = 512
+dim_feedforward_decoder = 512
+
+Lowest Loss:0.1315624518145368
